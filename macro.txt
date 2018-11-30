@@ -1,0 +1,3 @@
+Gamma(keV): 2614.5
+Shield(type,cm): Pb,3.0
+Shield(type,cm): Cu,2.0
