@@ -88,7 +88,7 @@ double Density(string absorber)
     dataFile.close();
     cout << "Error: No density found in data file" << endl; exit(EXIT_FAILURE);
   }
-  else {cout << "Error: File not open" << endl; exit(EXIT_FAILURE);}
+  else {cout << "Error: Data file not open" << endl; exit(EXIT_FAILURE);}
 }
 
 double MassAttenCoeff(string absorber, double E)
@@ -136,7 +136,7 @@ double MassAttenCoeff(string absorber, double E)
     } // end while getline() loop
     dataFile.close();
   } // end file is_open() loop
-  else {cout << "Error: File not open" << endl; exit(EXIT_FAILURE);}
+  else {cout << "Error: Data file not open" << endl; exit(EXIT_FAILURE);}
 
   // find and return the closest available MAC
   int i = Closest(Es, E/1000.); // E/1000. serves to convert from keV to MeV

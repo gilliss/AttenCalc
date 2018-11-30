@@ -82,6 +82,7 @@ int main(int argc, char* argv[])
       // close macro file
       ifs.close();
     } // end file is_open() loop
+    else {cout << "Error: Macro file not open" << endl; exit(EXIT_FAILURE);}
 
     // exit program
     return 0;

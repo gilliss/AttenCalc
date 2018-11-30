@@ -1,0 +1,6 @@
+Gamma(keV): 2614.5
+Shield(type,cm): Air,100.0
+Shield(type,cm): Poly,30.0
+Shield(type,cm): Pb,45.0
+Shield(type,cm): Cu,10.0
+Shield(type,cm): Ge,6.0
